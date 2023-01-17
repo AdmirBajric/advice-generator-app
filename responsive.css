@@ -30,6 +30,9 @@
   }
 
   #advice p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 295px;
     height: 13.2rem;
     text-align: center;
@@ -55,10 +58,21 @@
     align-items: center;
     position: absolute;
     top: calc(31.5rem - 3.2rem);
+    cursor: pointer;
+  }
+
+  .dice:active {
+    transform: scale(0.95);
+    box-shadow: 0px 0px 40px var(--neonGreen);
   }
 
   .attribution {
     font-size: 1.2rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
+    color: var(--lightCyan);
+  }
+
+  .attribution a {
+    color: var(--neonGreen);
   }
 }
