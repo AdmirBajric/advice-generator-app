@@ -28,4 +28,10 @@ body {
   font-family: var(--fontFamily);
   font-size: var(--fontSize);
   font-weight: var(--fontWeight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--darkBlue);
+  height: 100vh;
 }
