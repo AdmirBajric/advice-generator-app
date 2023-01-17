@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 295px;
+    width: 29.5rem;
     height: 13.2rem;
     text-align: center;
     color: var(--lightCyan);
@@ -63,7 +63,7 @@
 
   .dice:active {
     transform: scale(0.95);
-    box-shadow: 0px 0px 40px var(--neonGreen);
+    box-shadow: 0rem 0rem 4rem var(--neonGreen);
   }
 
   .attribution {

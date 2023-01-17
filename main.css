@@ -35,3 +35,85 @@ body {
   background-color: var(--darkBlue);
   height: 100vh;
 }
+
+#advice-container {
+  width: 54rem;
+  height: 36.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#advice {
+  width: 54rem;
+  height: 33.2rem;
+  background-color: #313a48;
+  border-radius: 1.5rem;
+  background-blend-mode: normal;
+  box-shadow: 3rem 5rem 8rem rgba(0, 0, 0, 0.1);
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+#advice h1 {
+  color: var(--neonGreen);
+  font-size: 1.3rem;
+  letter-spacing: 0.41rem;
+  margin-top: 4.8rem;
+}
+
+#advice p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44.4rem;
+  height: 11.4rem;
+  text-align: center;
+  color: var(--lightCyan);
+  font-size: 2.8rem;
+  margin-top: 2.4rem;
+}
+
+.divider {
+  width: 44.4rem;
+  height: 1.6rem;
+  margin-top: 4rem;
+}
+
+.dice {
+  width: 6.4rem;
+  height: 6.4rem;
+  background: var(--neonGreen);
+  background-blend-mode: normal;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: calc(33.2rem - 3.2rem);
+  cursor: pointer;
+}
+
+.dice img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.dice:active {
+  transform: scale(0.95);
+  box-shadow: 0px 0px 40px var(--neonGreen);
+}
+
+.attribution {
+  font-size: 1.2rem;
+  margin-top: 7rem;
+  color: var(--lightCyan);
+}
+
+.attribution a {
+  color: var(--neonGreen);
+}
