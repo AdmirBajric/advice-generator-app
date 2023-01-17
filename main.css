@@ -52,10 +52,8 @@ body {
   background-blend-mode: normal;
   box-shadow: 3rem 5rem 8rem rgba(0, 0, 0, 0.1);
   display: flex;
-
   align-items: center;
   flex-direction: column;
-
   position: relative;
 }
 

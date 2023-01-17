@@ -2,41 +2,23 @@
   #advice-container {
     width: 34.3rem;
     height: 34.7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   #advice {
     width: 34.3rem;
     height: 31.5rem;
-    background-color: #313a48;
     border-radius: 1rem;
-    background-blend-mode: normal;
-    box-shadow: 3rem 5rem 8rem rgba(0, 0, 0, 0.1);
-    display: flex;
-
-    align-items: center;
-    flex-direction: column;
-
-    position: relative;
   }
 
   #advice h1 {
-    color: var(--neonGreen);
     font-size: 1.1rem;
     letter-spacing: 0.35rem;
     margin-top: 4rem;
   }
 
   #advice p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 29.5rem;
     height: 13.2rem;
-    text-align: center;
-    color: var(--lightCyan);
     font-size: 2.4rem;
     margin-top: 1.6rem;
   }
@@ -48,31 +30,6 @@
   }
 
   .dice {
-    width: 6.4rem;
-    height: 6.4rem;
-    background: var(--neonGreen);
-    background-blend-mode: normal;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
     top: calc(31.5rem - 3.2rem);
-    cursor: pointer;
-  }
-
-  .dice:active {
-    transform: scale(0.95);
-    box-shadow: 0rem 0rem 4rem var(--neonGreen);
-  }
-
-  .attribution {
-    font-size: 1.2rem;
-    margin-top: 7rem;
-    color: var(--lightCyan);
-  }
-
-  .attribution a {
-    color: var(--neonGreen);
   }
 }
